@@ -1,0 +1,27 @@
+#include <stdio.h>
+int main()
+// Addition by declearing two variables and assigning them a value
+{
+    int x = 500;
+    int y = 100;
+    int sum = x+y; // this tells the compiler to do this certain opertaion
+    printf("%d\n", sum);
+    
+// subtraction by declearing two variables , and assigning them a value 
+int xy= 200;
+int yz = 100;
+int difference= xy- yz;
+printf("%d\n", difference);
+
+// Changing the value of variable using the other variable 
+int xyz = 26 ;
+int abc = 34;
+xyz= abc;
+printf("%d\n", xyz);
+
+// updating a variable using its current value 
+int jk = 99;
+jk = jk + 100;
+printf("%d", jk);
+return 0; 
+}
